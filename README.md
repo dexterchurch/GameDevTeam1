@@ -1,7 +1,7 @@
 # GameDevTeam1
 
 # Team members and roles
-* Dexter: sound/foley and project manager
+* Dexter: Sound/Foley and Project Manager
 * Angelina:
 * Garrett:
 * Sean: Game Designer & Game Logic/Mechanics
