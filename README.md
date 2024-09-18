@@ -5,4 +5,4 @@
 * Angelina:
 * Garrett:
 * Sean: Game Designer & Game Logic/Mechanics
-* Tryne:
+* Tryne: Animator & Tester/QH
