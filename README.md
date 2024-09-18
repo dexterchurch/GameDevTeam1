@@ -4,5 +4,5 @@
 * Dexter:
 * Angelina:
 * Garrett:
-* Sean:
+* Sean: Game Designer & Game Logic/Mechanics
 * Tryne:
