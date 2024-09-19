@@ -7,5 +7,5 @@
 * Sean: Game Designer & Game Logic/Mechanics
 * Tryne: Animator & Tester/QA
 
-#Mission Statement: We wish to make a game that is engaging, progresses and has good game mechanics.
+# Mission Statement: We wish to make a game that is engaging, progresses and has good game mechanics.
 
