@@ -1,4 +1,4 @@
-# GameDevTeam1
+# Nebula Interactive
 
 # Team members and roles
 * Dexter: Sound/Foley and Project Manager
