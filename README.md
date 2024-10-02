@@ -9,3 +9,5 @@
 
 # Mission Statement: We wish to make a game that is engaging, progresses and has good game mechanics.
 
+Game Over screen
+![image](https://github.com/user-attachments/assets/15c9ce6c-3496-4efa-95fe-97f0f5559976)
