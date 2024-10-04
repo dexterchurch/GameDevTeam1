@@ -13,7 +13,7 @@ Game Over screen
 ![image](https://github.com/user-attachments/assets/15c9ce6c-3496-4efa-95fe-97f0f5559976)
 
 Basic Game Logic Template:
-! [image](https://github.com/dexterchurch/GameDevTeam1/blob/main/images/Rusted_Ring.jpg?raw=true)
+![image](https://github.com/dexterchurch/GameDevTeam1/blob/main/images/Rusted_Ring.jpg?raw=true)
 
 Gameplay mock-up: 
 ![image](https://github.com/dexterchurch/GameDevTeam1/blob/main/images/Gameplay.jpg?raw=true)
