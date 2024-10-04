@@ -14,3 +14,6 @@ Game Over screen
 
 Basic Game Logic Template:
 ![image](https://github.com/user-attachments/assets/3fd72e51-3db8-426e-bfff-e56568aa4416)
+
+Gameplay mock-up: 
+![image](https://github.com/dexterchurch/GameDevTeam1/blob/main/images/Gameplay.jpg?raw=true)
