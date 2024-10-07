@@ -19,4 +19,4 @@ Gameplay mock-up:
 ![image](https://github.com/dexterchurch/GameDevTeam1/blob/main/images/Gameplay.jpg?raw=true)
 
 Start Screen: 
-![image](https://github.com/dexterchurch/GameDevTeam1/blob/main/images/Start%20Screen%20ANG.png?raw=true)
+![image](https://github.com/dexterchurch/GameDevTeam1/blob/main/images/StartScreenAC.png?raw=true)
