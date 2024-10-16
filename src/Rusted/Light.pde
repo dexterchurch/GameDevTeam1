@@ -1,4 +1,4 @@
-// Chris Behling
+// Sean Roberts
 
 class Light{
   // Member Variables
