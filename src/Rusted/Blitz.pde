@@ -1,3 +1,5 @@
+// Chris Behling
+
 class Blitz{
   // Member Variables
 int strength,health,damage;
