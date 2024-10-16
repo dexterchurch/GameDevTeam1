@@ -1,8 +1,6 @@
 void setup(){}
 
 void draw() {
-if(play == false);
-startScreen();
 }
 
 void keyPressed() {}
