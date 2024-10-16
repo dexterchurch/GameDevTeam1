@@ -1,12 +1,12 @@
 class Blitz{
   // Member Variables
-int strong,health,damage;
+int strength,health,damage;
 PImage b1;
 boolean alive;
 
 // Constructor
 Blitz() {
-strong = 0;
+strength = 0;
 health = 65;
 damage = 100;
 b1 = loadImage("");
