@@ -1,5 +1,6 @@
+// Can one of you code the start screen?
 void setup(){
-size(400,400);
+size(700,700);
 }
 
 void draw() {
