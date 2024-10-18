@@ -1,16 +1,14 @@
+PImage bg1;
 void setup(){
 size(700,700);
 }
 
+
 void draw() {
+background(bg1);
+
 }
-
-void keyPressed() {}
-
-void mousePressed() {}
-
-void startScreen() {
-background(0);
-fill(255);
-text("start!", width/2, height/2);
+{if (keyPressed == true) {
+   
+ }
 }
