@@ -2,19 +2,19 @@
 
 class Wild{
   // Member Variables
-int stamina,health,damage;
-PImage b1;
+int stamina,health,damage,speed;
+PImage w1;
 boolean alive;
 
 // Constructor
 Wild() {
 stamina = 35;
-health = 50;
+health = 60;
 damage = 75;
-b1 = loadImage("");
+speed = 35;
+w1 = loadImage("");
 alive = false;
 }
 // Member Methods
 void display() {}
-}
 }

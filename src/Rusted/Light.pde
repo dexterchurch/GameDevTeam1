@@ -2,16 +2,17 @@
 
 class Light{
   // Member Variables
-int stamina,health,damage;
-PImage b1;
+int stamina,health,damage,speed;
+PImage l1;
 boolean alive;
 
 // Constructor
 Light() {
 stamina = 50;
-health = 45;
-damage = 75;
-b1 = loadImage("");
+health = 25;
+damage = 50;
+speed = 75;
+l1 = loadImage("");
 alive = false;
 }
 // Member Methods
