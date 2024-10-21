@@ -3,7 +3,7 @@
 
 class Boss {
   // Member Variables
-<<<<<<< HEAD
+
   int stamina, health, damage, x, y, speed;
   PImage b2;
   boolean alive;
@@ -11,7 +11,7 @@ class Boss {
 int stamina,health,damage,speed;
 PImage b2;
 boolean alive;
->>>>>>> 0c95d8f1555fe518383842fcd1db76b5f6d01e2b
+
 
   // Constructor
   Boss(int x, int y) {
