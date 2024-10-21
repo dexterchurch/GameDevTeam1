@@ -1,4 +1,4 @@
-// <<<<<<< HEAD
+
 // Can one of you code the start screen?
 
 Blitz b1;
@@ -7,7 +7,7 @@ void setup() {
   size(700, 700);
   b1 = new Blitz(100, 100);
   bg4 = loadImage("bg4.png");
-// =======
+
     // Dexter Church
 
   PImage bg4, Gameplay;
@@ -20,15 +20,12 @@ void setup() {
     bX=0;
     bY=0;
     play=false;
-    /// >>>>>>> 0c95d8f1555fe518383842fcd1db76b5f6d01e2b
   }
 
 
   void draw() {
-    /// <<<<<<< HEAD
     background(bg4);
     b1.display();
-    /// =======
     if (play == false) {
       startScreen();
     } else {
@@ -45,5 +42,4 @@ void setup() {
         play=true;
       }
     }
-    /// >>>>>>> 0c95d8f1555fe518383842fcd1db76b5f6d01e2b
   }
