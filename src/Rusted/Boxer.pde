@@ -2,16 +2,17 @@
 
 class Boxer{
   // Member Variables
-int stamina,health,damage;
-PImage b1;
+int stamina,health,damage,speed;
+PImage b3;
 boolean alive;
 
 // Constructor
 Boxer() {
 stamina = 50;
-health = 65;
+health = 50;
 damage = 50;
-b1 = loadImage("");
+speed = 50;
+b3 = loadImage("");
 alive = false;
 }
 // Member Methods

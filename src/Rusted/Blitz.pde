@@ -2,7 +2,7 @@
 
 class Blitz{
   // Member Variables
-int stamina,health,damage;
+int stamina,health,damage,speed;
 PImage b1;
 boolean alive;
 
@@ -10,7 +10,8 @@ boolean alive;
 Blitz() {
 stamina = 15;
 health = 25;
-damage = 100;
+damage = 60;
+speed = 100;
 b1 = loadImage("");
 alive = false;
 }

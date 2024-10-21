@@ -9,9 +9,10 @@ boolean alive;
 
 // Constructor
 Boss() {
-stamina = 15;
-health = 25;
+stamina = 45;
+health = 75;
 damage = 100;
+speed = 80;
 b2 = loadImage("");
 alive = false;
 }
