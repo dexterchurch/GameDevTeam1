@@ -2,7 +2,7 @@
 
 class Enemy{
   // Member Variables
-int stamina,health,damage;
+int stamina,health,damage,speed;
 PImage e1;
 boolean alive;
 
