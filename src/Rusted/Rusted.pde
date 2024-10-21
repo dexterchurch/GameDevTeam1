@@ -11,6 +11,7 @@ void setup() {
 // Dexter Church
 
 PImage bg4;
+PImage Gameplay;
 int bX, bY;
 boolean backgroundOver=false;
 boolean play;
@@ -33,7 +34,7 @@ void draw() {
   if (play == false) {
     startScreen();
   } else {
-    background(127);
+    background(Gameplay);
     //if (backgroundOver) {
 
     //}
