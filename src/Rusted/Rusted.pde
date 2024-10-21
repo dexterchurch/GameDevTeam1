@@ -14,6 +14,7 @@ void setup() {
   int bX, bY;
   boolean backgroundOver=false, play;
 
+<<<<<<< Updated upstream
   void setup() {
     size(700, 700);
     bg4 = loadImage("bg4.png");
@@ -21,6 +22,16 @@ void setup() {
     bY=0;
     play=false;
     /// >>>>>>> 0c95d8f1555fe518383842fcd1db76b5f6d01e2b
+=======
+void draw() {
+  if (play == false) {
+    startScreen();
+  } else {
+    background(127);
+    //if (backgroundOver) {
+    background(Gameplay);
+    //}
+>>>>>>> Stashed changes
   }
 
 
