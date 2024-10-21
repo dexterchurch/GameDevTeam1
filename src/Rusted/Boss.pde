@@ -3,7 +3,7 @@
 
 class Boss{
   // Member Variables
-int stamina,health,damage;
+int stamina,health,damage,speed;
 PImage b2;
 boolean alive;
 
