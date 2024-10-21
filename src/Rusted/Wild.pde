@@ -7,7 +7,7 @@ PImage w1;
 boolean alive;
 
 // Constructor
-Wild() {
+ Wild() {
 stamina = 35;
 health = 60;
 damage = 75;
@@ -17,6 +17,7 @@ alive = false;
 }
 // Member Methods
 void display() {}
+}
 }
 }
 }
