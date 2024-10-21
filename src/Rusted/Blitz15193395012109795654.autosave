@@ -2,21 +2,23 @@
 
 class Blitz {
   // Member Variables
-  int stamina, health, damage, speed, x, y;
+  int stamina, health, damage, x, y;
   PImage b1;
   boolean alive;
+  
 
   // Constructor
   Blitz(int x, int y) {
+    this.x = x;
+    this.y = y;
     stamina = 15;
     health = 25;
-    damage = 60;
-    speed = 100;
-    b1 = loadImage("");
+    damage = 100;
+    b1 = loadImage("Blitz_AC.png");
     alive = false;
   }
   // Member Methods
   void display() {
-    image(b1, x, y); 
-  } 
+    image(b1, x, y );
+  }
 }
