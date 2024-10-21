@@ -1,4 +1,4 @@
-// Can one of you code the start screen?
+// Dexter Church
 
 PImage bg4;
 int bX, bY;
