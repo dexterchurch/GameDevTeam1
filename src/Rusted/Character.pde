@@ -1,4 +1,3 @@
-
 class Character {
   // Member Variables
   int stamina, health, damage, speed, x, y;
