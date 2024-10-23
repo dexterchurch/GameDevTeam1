@@ -1,6 +1,6 @@
 // Sean Roberts
 
-<<<<<<< HEAD
+
 class Enemy {
   // Member Variables
   int stamina, health, damage, speed;
@@ -21,7 +21,7 @@ class Enemy {
   }
   void attack() {
   }
-=======
+
 class Enemy{
   // Member Variables
 int stamina,health,damage,speed;
@@ -40,4 +40,3 @@ alive = false;
 // Member Methods
 void display() {}
 void attack() {}
->>>>>>> 0c95d8f1555fe518383842fcd1db76b5f6d01e2b
