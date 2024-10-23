@@ -11,8 +11,8 @@ void setup() {
   PImage bg4, Gameplay;
   int bX, bY;
   boolean backgroundOver=false, play;
-  void setup() {}
-  void setup() {}
+
+  void setup(){
     size(700, 700);
     bg4 = loadImage("bg4.png");
     bX=0;
