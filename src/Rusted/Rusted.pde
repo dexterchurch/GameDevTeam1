@@ -7,7 +7,7 @@ Boss b2;
 Boxer b3;
 void setup() {
   size(700, 700);
-  b1 = new Blitz(100, 100);
+  b1 = new Blitz(100, 200);
   b2= new Boss(200,200);
   b3= new Boxer (300,200);
   bg4 = loadImage("bg4.png");
