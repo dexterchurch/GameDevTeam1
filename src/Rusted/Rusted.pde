@@ -7,24 +7,12 @@ void setup() {
   size(700, 700);
   b1 = new Blitz(100, 100);
   bg4 = loadImage("bg4.png");
-<<<<<<< HEAD
-  // =======
-  // Dexter Church
-=======
-
-    // Dexter Church
->>>>>>> 10b61c3624a4b42419df5dd09bcf151401aeccba
 
   PImage bg4, Gameplay;
   int bX, bY;
   boolean backgroundOver=false, play;
-
-<<<<<<< HEAD
-
-  void setup(); {
-=======
-  void setup() {
->>>>>>> 10b61c3624a4b42419df5dd09bcf151401aeccba
+  void setup() {}
+  void setup() {}
     size(700, 700);
     bg4 = loadImage("bg4.png");
     bX=0;
@@ -33,11 +21,8 @@ void setup() {
   }
 
   void draw() {
-<<<<<<< HEAD
-=======
     background(bg4);
     b1.display();
->>>>>>> 10b61c3624a4b42419df5dd09bcf151401aeccba
     if (play == false) {
       startScreen();
     } else {
@@ -49,10 +34,8 @@ void setup() {
 
 
     void draw() {
-      /// <<<<<<< HEAD
       background(bg4);
       b1.display();
-      /// =======
       if (play == false) {
         startScreen();
       } else {
@@ -69,8 +52,4 @@ void setup() {
           play=true;
         }
       }
-    }
-<<<<<<< HEAD
-=======
-  }
->>>>>>> 10b61c3624a4b42419df5dd09bcf151401aeccba
+    
