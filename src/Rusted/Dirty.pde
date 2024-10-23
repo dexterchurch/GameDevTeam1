@@ -16,5 +16,5 @@ d1 = loadImage("");
 alive = false;
 }
 // Member Methods
-void display() {}
+void display() {
 }
