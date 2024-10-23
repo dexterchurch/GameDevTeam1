@@ -3,21 +3,24 @@
 
 class Enemy {
   // Member Variables
-  int stamina, health, damage, speed;
-  PImage e1;
+  int stamina, health, damage, speed, x, y;
+  PImage enemyImage;
   boolean alive;
 
   // Constructor
-  Enemy() {
+  Enemy(int x, int y) {
+    this.x = x;
+    this.y = y;
     stamina = 35;
     health = 65;
     damage = 65;
     speed = 35;
-    e1 = loadImage("");
+    enemyImage = loadImage("");
     alive = false;
   }
   // Member Methods
   void display() {
+    image(enemyImage, x, y);
   }
   void attack() {
   }
