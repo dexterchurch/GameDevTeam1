@@ -18,7 +18,3 @@ alive = false;
 // Member Methods
 void display() {}
 }
-}
-}
-}
-}
