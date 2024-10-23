@@ -4,6 +4,10 @@ boolean play;
 Blitz b1;
 Boss b2;
 Boxer b3;
+Dirty d1;
+Enemy e1;
+Light l1;
+Mini m1;
 Character c1;
 float x, y; // Declare x and y
 
@@ -12,6 +16,10 @@ void setup() {
   b1 = new Blitz(100, 100);
   b2 = new Boss(200, 200);
   b3 = new Boxer(300,300);
+  d1 = new Dirty(400, 200);
+  e1 = new Enemy(500,200);
+  l1 = new Light(600,200);
+  m1 = new Mini(700,200);
   c1 = new Character();
   bg4 = loadImage("bg4.png");
   gameplay = loadImage("Gameplay.png");
@@ -30,6 +38,10 @@ void draw() {
     b2.display();
     b3.display();
     //c1.display();
+    d1.display();
+    e1.display();
+    l1.display();
+    m1.display();
 
     if (keyPressed) {
       if (key == 'w' || key == 'W') {
