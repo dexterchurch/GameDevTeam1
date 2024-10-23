@@ -7,7 +7,7 @@ class Boss {
   int stamina, health, damage, x, y, speed;
   PImage b2;
   boolean alive;
-=======
+
 int stamina,health,damage,speed;
 PImage b2;
 boolean alive;
