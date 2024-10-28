@@ -13,13 +13,13 @@ float x, y; // Declare x and y
 
 void setup() {
   size(700, 700);
-  b1 = new Blitz(100, 200);
-  b2 = new Boss(200, 200);
-  b3 = new Boxer(300, 200);
-  d1 = new Dirty(400,200);
-  e1 = new Enemy(500, 200);
-  l1 = new Light(600, 200);
-  m1 = new Mini(700, 200);
+  b1 = new Blitz(25, 200);
+  b2 = new Boss(100, 200);
+  b3 = new Boxer(200, 200);
+  d1 = new Dirty(300,200);
+  e1 = new Enemy(400, 200);
+  l1 = new Light(500, 200);
+  m1 = new Mini(600, 200);
   
   c1 = new Character();
   bg4 = loadImage("bg4.png");

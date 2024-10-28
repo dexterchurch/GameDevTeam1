@@ -15,7 +15,7 @@ class Enemy {
     health = 65;
     damage = 65;
     speed = 35;
-    enemyImage = loadImage("Enemy_TJ.png");
+    enemyImage = loadImage("Enemy.png");
     alive = false;
   }
   // Member Methods
