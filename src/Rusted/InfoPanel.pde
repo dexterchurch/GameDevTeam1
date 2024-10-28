@@ -1,0 +1,40 @@
+// InfoPanel Class to display game information
+class InfoPanel {
+  int score;
+  int health;
+  
+  InfoPanel(int initialScore, int initialHealth, int initialLives, int initialLevel) {
+    score = initialScore;
+    health = initialHealth;
+  }
+  
+  // Call this function to update score
+  void updateScore(int points) {
+    score += points;
+  }
+
+  // Call this function to update health
+  void updateHealth(int change) {
+    health += change;
+    health = constrain(health, 0, 100); // Health capped at 100
+  }
+  
+  // Display the panel with information
+  void display() {
+    // Draw background for info panel
+    fill(50, 50, 50, 150); // Semi-transparent background
+    rect(10, 10, 200, 100);
+    
+    // Set text properties
+    fill(255);
+    textSize(12);
+    
+    // Display the score
+    text("Score: " + score, 20, 30);
+    
+    // Display the health
+    text("Health: " + health, 20, 50);
+    
+
+  }
+}

@@ -8,6 +8,7 @@ Dirty d1;
 Enemy e1;
 Light l1;
 Mini m1;
+InfoPanel panel;
 Character c1;
 float x, y; // Declare x and y
 
@@ -43,6 +44,7 @@ void draw() {
     l1.display();
     m1.display();
     //c1.display();
+    panel.display();
 
     if (keyPressed) {
       if (key == 'w' || key == 'W') {
