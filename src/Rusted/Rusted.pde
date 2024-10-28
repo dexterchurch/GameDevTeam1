@@ -11,7 +11,7 @@ void setup() {
   size(700, 700);
   b1 = new Blitz(100, 100);
   b2 = new Boss(200, 200);
-  b3 = new Boxer(300,300);
+  b3 = new Boxer(300, 300);
   c1 = new Character();
   bg4 = loadImage("bg4.png");
   gameplay = loadImage("Gameplay.png");

@@ -19,6 +19,6 @@ class Boxer {
   }
   // Member Methods
   void display() {
-  image(boxerImage, x, y);
+    image(boxerImage, x, y);
   }
 }

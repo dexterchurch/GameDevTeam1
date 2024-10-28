@@ -24,9 +24,9 @@ class Character {
       y-= 5;
     } else if (dir == 'd') {
       y+= 5;
-    }else if (dir == 'l') {
+    } else if (dir == 'l') {
       x-= 5;
-    }else if (dir == 'r') {
+    } else if (dir == 'r') {
       x+= 5;
     }
   }

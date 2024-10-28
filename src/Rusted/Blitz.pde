@@ -19,6 +19,6 @@ class Blitz {
   }
   // Member Methods
   void display() {
-    image(blitzImage, x, y); 
-  } 
+    image(blitzImage, x, y);
+  }
 }

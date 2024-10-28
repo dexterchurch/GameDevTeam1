@@ -19,7 +19,7 @@ class Mini {
   }
   // Member Methods
   void display() {
-  image(miniImage, x, y);
+    image(miniImage, x, y);
   }
   void attack() {
   }
