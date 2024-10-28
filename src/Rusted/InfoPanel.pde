@@ -2,10 +2,14 @@
 class InfoPanel {
   int score;
   int health;
+  int lives;
+  int level;
   
   InfoPanel(int initialScore, int initialHealth, int initialLives, int initialLevel) {
     score = initialScore;
     health = initialHealth;
+    lives = initialLives;
+    level = initialLevel;
   }
   
   // Call this function to update score

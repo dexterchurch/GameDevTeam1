@@ -12,7 +12,7 @@ class Character {
     speed = 5;
     x = 100;
     y = 100;
-    c1 = loadImage("");
+    //c1 = loadImage("");
     alive = false;
   }
   // Member Methods

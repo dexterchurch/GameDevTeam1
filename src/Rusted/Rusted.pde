@@ -44,7 +44,7 @@ void draw() {
     l1.display();
     m1.display();
     //c1.display();
-    panel.display();
+    //panel.display();
 
     if (keyPressed) {
       if (key == 'w' || key == 'W') {
