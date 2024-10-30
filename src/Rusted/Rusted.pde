@@ -48,17 +48,18 @@ void draw() {
     //c1.display();
     panel.display();
     
-    if (frameCount % 60 ==0) {
+    //health decreases by 2 every second and score increases by 20 every second
+    if (frameCount % 30 ==0) {
       panel.updateScore(10);
       panel.updateHealth(-1);
     }
-    
-    if (frameCount % 6000 == 0) {
+    // when health reaches zero it takes away one life and resets health to 100
+    if (frameCount % 3030 == 0) {
       panel.updateLives(-1);
       panel.updateHealth(100);
     }
-    
-    if (frameCount % 3000 == 0) {
+    // level increases by 1 every 500 score
+    if (frameCount % 1530 == 0) {
       panel.updateLevel(1);
     }
     
