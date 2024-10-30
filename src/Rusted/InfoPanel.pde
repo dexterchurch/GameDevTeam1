@@ -25,6 +25,7 @@ class InfoPanel {
   
   void updateLives (int change) {
     lives += change;
+    lives = constrain(lives,0,3);
   }
   
   void updateLevel(int change) {
