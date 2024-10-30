@@ -14,6 +14,8 @@ float x, y; // Declare x and y
 
 void setup() {
   size(700, 700);
+  panel = new InfoPanel(0, 100, 3, 1);
+  
   b1 = new Blitz(25, 200);
   b2 = new Boss(100, 200);
   b3 = new Boxer(200, 200);
@@ -44,7 +46,22 @@ void draw() {
     l1.display();
     m1.display();
     //c1.display();
-    //panel.display();
+    panel.display();
+    
+    if (frameCount % 60 ==0) {
+      panel.updateScore(10);
+      panel.updateHealth(-1);
+    }
+    
+    if (frameCount % 6000 == 0) {
+      panel.updateLives(-1);
+      panel.updateHealth(100);
+    }
+    
+    if (frameCount % 3000 == 0) {
+      panel.updateLevel(1);
+    }
+    
 
     if (keyPressed) {
       if (key == 'w' || key == 'W') {

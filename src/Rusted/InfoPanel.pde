@@ -23,6 +23,14 @@ class InfoPanel {
     health = constrain(health, 0, 100); // Health capped at 100
   }
   
+  void updateLives (int change) {
+    lives += change;
+  }
+  
+  void updateLevel(int change) {
+    level += change;
+  }
+  
   // Display the panel with information
   void display() {
     // Draw background for info panel
@@ -38,6 +46,10 @@ class InfoPanel {
     
     // Display the health
     text("Health: " + health, 20, 50);
+    
+    text("Lives: " + lives, 20, 70);
+    
+    text("Level: " + level, 20, 90);
     
 
   }
