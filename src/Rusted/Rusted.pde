@@ -45,7 +45,7 @@ void draw() {
     e1.display();
     l1.display();
     m1.display();
-    //c1.display();
+    c1.display();
     panel.display();
     
     //health decreases by 2 every second and score increases by 20 every second
