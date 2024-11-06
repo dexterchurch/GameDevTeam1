@@ -1,3 +1,5 @@
+import processing.sound.*;
+SoundFile walking;
 // Dexter Church
 PImage bg4, gameplay;
 boolean play;
@@ -14,7 +16,7 @@ float x, y; // Declare x and y
 
 void setup() {
   size(700, 700);
-  //walking = new SoundFile(this, "walking.wav");
+  walking = new SoundFile(this, "walking.wav");
   panel = new InfoPanel(0, 100, 3, 1);
   
   b1 = new Blitz(25, 200);
@@ -28,6 +30,7 @@ void setup() {
   c1 = new Character();
   bg4 = loadImage("bg4.png");
   gameplay = loadImage("Gameplay.png");
+  
   play = false;
   x = 100; // Initialize x
   y = 100; // Initialize y
@@ -68,16 +71,16 @@ void draw() {
     if (keyPressed) {
       if (key == 'w' || key == 'W') {
         c1.move('u');
-        //walking.play();
+        walking.play();
       } else if (key == 's' || key == 'S') {
         c1.move('d');
-        //walking.play();
+        walking.play();
       } else if (key == 'a' || key == 'A') {
         c1.move('l');
-        //walking.play();
+        walking.play();
       } else if (key == 'd' || key == 'D') {
         c1.move('r');
-        //walking.play();
+        walking.play();
       }
     }
   }
@@ -87,16 +90,16 @@ void keyPressed() { // Move this outside of draw()
   if (key == CODED) {
     if (keyCode == UP) {
       c1.move('u');
-      //walking.play();
+      walking.play();
     } else if (keyCode == DOWN) {
       c1.move('d');
-      //walking.play();
+      walking.play();
     } else if (keyCode == LEFT) {
       c1.move('l');
-      //walking.play();
+      walking.play();
     } else if (keyCode == RIGHT) {
-      c1.move('d');
-      //walking.play();
+      c1.move('r');
+      walking.play();
     }
   }
 }
