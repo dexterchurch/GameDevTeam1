@@ -59,19 +59,19 @@ void draw() {
     panel.display();
 
     // health decreases by 2 every second and score increases by 20 every second
-    if (frameCount % 30 == 0) {
-      panel.updateScore(10);
-      panel.updateHealth(-1);
-    }
-    // when health reaches zero it takes away one life and resets health to 100
-    if (frameCount % 3030 == 0) {
-      panel.updateLives(-1);
-      panel.updateHealth(100);
-    }
-    // level increases by 1 every 500 score
-    if (frameCount % 1530 == 0) {
-      panel.updateLevel(1);
-    }
+    //if (frameCount % 30 == 0) {
+    //  panel.updateScore(10);
+    //  panel.updateHealth(-1);
+    //}
+    //// when health reaches zero it takes away one life and resets health to 100
+    //if (frameCount % 3030 == 0) {
+    //  panel.updateLives(-1);
+    //  panel.updateHealth(100);
+    //}
+    //// level increases by 1 every 500 score
+    //if (frameCount % 1530 == 0) {
+    //  panel.updateLevel(1);
+    //}
 
     // Handle movement and sound playing for walking
     if (keyPressed) {
