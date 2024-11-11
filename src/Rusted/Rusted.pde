@@ -95,15 +95,15 @@ void draw() {
           c1.move('r');
           walking.play();
         }
-      } else if (key == 'b' || key == 'B') {  // Play laser sound when 'B' is pressed
-        if (!laserPlaying) {
-          laser.play();
-          laserPlaying = true;  // Prevent multiple laser sounds while the key is held down
+      } //else if (key == 'b' || key == 'B') {  // Play laser sound when 'B' is pressed
+        //if (!laserPlaying) {
+          //laser.play();
+          //laserPlaying = true;  // Prevent multiple laser sounds while the key is held down
         }
       }
     }
-  }
-}
+  //}
+//}
 
 void keyPressed() { // Move this outside of draw()
   if (key == CODED) {
