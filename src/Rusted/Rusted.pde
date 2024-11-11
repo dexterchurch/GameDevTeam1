@@ -12,8 +12,9 @@ Dirty d1;
 Enemy e1;
 Light l1;
 Mini m1;
+Apple a1;
 InfoPanel panel;
-Character c1;
+Human c1;
 float x, y; // Declare x and y
 
 boolean laserPlaying = false; // To prevent laser sound from playing continuously
@@ -32,8 +33,9 @@ void setup() {
   e1 = new Enemy(400, 200);
   l1 = new Light(500, 200);
   m1 = new Mini(600, 200);
+  a1 = new Apple(100, 150);
 
-  c1 = new Character();
+  c1 = new Human();
   bg4 = loadImage("bg4.png");
   gameplay = loadImage("Gameplay.png");
 
@@ -56,6 +58,7 @@ void draw() {
     l1.display();
     m1.display();
     c1.display();
+    a1.display();
     panel.display();
 
     // health decreases by 2 every second and score increases by 20 every second
@@ -72,7 +75,10 @@ void draw() {
     if (frameCount % 1530 == 0) {
       panel.updateLevel(1);
     }
-
+    if (a1.intersect(c1)) {
+      a1.x = 165;
+      a1.y = 475;
+    }
     // Handle movement and sound playing for walking
     if (keyPressed) {
       if (key == 'w' || key == 'W') {

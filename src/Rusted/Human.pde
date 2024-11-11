@@ -1,11 +1,11 @@
-class Character {
+class Human {
   // Member Variables
   int stamina, health, damage, speed, x, y;
   PImage c1;
   boolean alive;
 
   // Constructor
-  Character() {
+  Human() {
     stamina = 50;
     health = 50;
     damage = 50;
