@@ -60,8 +60,13 @@ void draw() {
     c1.display();
     a1.display();
     panel.display();
-
     // health decreases by 2 every second and score increases by 20 every second
+
+    if (a1.intersect(c1)) {
+      a1.x = 165;
+      a1.y = 475;
+    }
+
     if (frameCount % 30 == 0) {
       panel.updateScore(10);
       panel.updateHealth(-1);
@@ -75,10 +80,7 @@ void draw() {
     if (frameCount % 1530 == 0) {
       panel.updateLevel(1);
     }
-    if (a1.intersect(c1)) {
-      a1.x = 165;
-      a1.y = 475;
-    }
+
     // Handle movement and sound playing for walking
     if (keyPressed) {
       if (key == 'w' || key == 'W') {
@@ -101,15 +103,15 @@ void draw() {
           c1.move('r');
           walking.play();
         }
-      } else if (key == 'b' || key == 'B') {  // Play laser sound when 'B' is pressed
-        if (!laserPlaying) {
-          laser.play();
-          laserPlaying = true;  // Prevent multiple laser sounds while the key is held down
+      } //else if (key == 'b' || key == 'B') {  // Play laser sound when 'B' is pressed
+        //if (!laserPlaying) {
+          //laser.play();
+          //laserPlaying = true;  // Prevent multiple laser sounds while the key is held down
         }
       }
     }
-  }
-}
+  //}
+//}
 
 void keyPressed() { // Move this outside of draw()
   if (key == CODED) {
