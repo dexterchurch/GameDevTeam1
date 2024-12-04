@@ -26,7 +26,7 @@ void setup() {
   laser = new SoundFile(this, "laser.wav");       // Laser sound file
   panel = new InfoPanel(0, 100, 3, 1);
   walking1 = new Timer(500);
-  wTime = new Timer(5000)
+  wTime = new Timer(5000);
 
   b1 = new Blitz(25, 200);
   b2 = new Boss(100, 200);
@@ -149,6 +149,26 @@ void keyReleased() { // Reset laserPlaying flag when key is released
 
 void startScreen() {
   image(bg4, 0, 0);
+  
+  if (wTime.isFinished()) {
+    wTime.start();
+    welcomeCounter++;
+  }
+  switch(welcomeCounter) {
+    case 0:
+    fill(255);
+    textSize(50);
+    text("Welcome", 250,100);
+    break;
+    case 1:
+    fill(255);
+    textSize(50);
+    text("To Rusted Ring",225,100);
+    break;
+    default:
+    break;
+  }
+  
   if (keyPressed) {
     play = true;
   }
