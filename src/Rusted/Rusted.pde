@@ -17,6 +17,7 @@ InfoPanel panel;
 Human c1;
 float x, y; // Declare x and y
 int welcomeCounter;
+PFont mono;
 
 boolean laserPlaying = false; // To prevent laser sound from playing continuously
 
@@ -27,6 +28,7 @@ void setup() {
   panel = new InfoPanel(0, 100, 3, 1);
   walking1 = new Timer(500);
   wTime = new Timer(5000);
+  mono = createFont("AppleMyungjo.vlw",50);
 
   b1 = new Blitz(25, 200);
   b2 = new Boss(100, 200);
@@ -158,11 +160,13 @@ void startScreen() {
     case 0:
     fill(255);
     textSize(50);
+    textFont(mono);
     text("Welcome", 250,100);
     break;
     case 1:
     fill(255);
-    textSize(50);
+    //textSize(50);
+     textFont(mono);
     text("To Rusted Ring",225,100);
     break;
     default:
