@@ -2,7 +2,7 @@ import processing.sound.*;
 
 SoundFile walking;    // Walking sound file
 SoundFile laser;      // Laser sound file
-Timer walking1;
+Timer walking1,wTime;
 PImage bg4, gameplay;
 boolean play;
 Blitz b1;
@@ -16,6 +16,7 @@ Apple a1;
 InfoPanel panel;
 Human c1;
 float x, y; // Declare x and y
+int welcomeCounter;
 
 boolean laserPlaying = false; // To prevent laser sound from playing continuously
 
@@ -25,6 +26,7 @@ void setup() {
   laser = new SoundFile(this, "laser.wav");       // Laser sound file
   panel = new InfoPanel(0, 100, 3, 1);
   walking1 = new Timer(500);
+  wTime = new Timer(5000)
 
   b1 = new Blitz(25, 200);
   b2 = new Boss(100, 200);
