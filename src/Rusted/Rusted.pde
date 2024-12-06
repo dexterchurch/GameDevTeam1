@@ -169,6 +169,54 @@ void startScreen() {
      textFont(mono);
     text("To Rusted Ring",225,100);
     break;
+    case 2:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("You are about to embark \n on a journey", 0,100);
+    break;
+    case 3:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("Never seen before", 200,100);
+    break;
+    case 4:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("It will not be easy", 200,100);
+    break;
+    case 5:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("And there will be danger", 200,100);
+    break;
+    case 6:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("But you will learn", 200,100);
+    break;
+    case 7:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("And you will win", 200,100);
+    break;
+    case 8:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("So get ready to fight", 200,100);
+    break;
+    case 9:
+    fill(255);
+    textSize(50);
+    textFont(mono);
+    text("And good luck", 200,100);
+    break;
     default:
     break;
   }
